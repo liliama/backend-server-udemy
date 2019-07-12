@@ -1,0 +1,54 @@
+///inicia node
+npm init
+
+///en cmd 
+//para inicializar servidor en node 
+node app
+
+///primera ruta nodemon
+//Inicializar  variables
+app.get('/', (req, res, next) => {
+	res.status(404);
+
+});
+
+///pagina de nodemon
+//nos ayuda a no estar bajando y subiendo el servidor
+https://github.com/remy/nodemon
+//para instalar de forma global
+npm install -g nodemon
+//en el archivo package.json añadir  la linea de start
+//sector
+"scripts": {
+    "start": "nodemon app.js",
+//si tenemos instalado el nodemon para levantar una solavez el servidor 
+npm start
+
+///instalacion de mongo DB 
+https://docs.mongodb.com/manual/installation/
+
+///instalar robo 3t
+https://robomongo.org/download
+
+///establecer conexion entre mondo y nde
+//es un odm
+https://mongoosejs.com/ 
+//instalar 
+npm install mongoose --save
+
+//subir al github
+ingresar a github https://github.com/liliama/adminpro_udemycurso.git
+nuevo
+// en cmd 
+git init
+git status
+git add .
+git commit -m "Primer commit"
+//crear un release o archivos lista para baja
+git tag
+git tag -a v0.0.1 -m "Fin de la seccion 9"
+git tag
+git push --tags
+
+
+
